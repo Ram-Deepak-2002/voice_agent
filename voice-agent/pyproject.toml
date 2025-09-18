@@ -5,7 +5,6 @@ description = ""
 authors = [
     {name = "Ram-Deepak-2002",email = "deepak.ramanujam@orcazen.ai"}
 ]
-readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi (>=0.116.2,<0.117.0)",
