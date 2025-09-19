@@ -128,8 +128,8 @@ class PersistentPlaywright:
         
         # Execute the code
         try:
-            safe_globals = {"_page": _page, "expect": expect, "re": re}
-            exec(code, safe_globals)
+            # safe_globals = {"_page": _page, "expect": expect, "re": re}
+            # exec(code, safe_globals)
             print("✅ Instruction executed successfully.")
             return {"executed_code": code, "status": "success", "message": "Code executed successfully"}
         except Exception as e:
