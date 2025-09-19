@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.get("/")(lambda: {"message": "Hello, World!"})
-app.include_router(router, prefix="/api", tags=["automate"])
+app.include_router(router, tags=["automate"])
 
 def main():
     import uvicorn
